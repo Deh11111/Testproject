@@ -1,3 +1,3 @@
 function drop(){
-    document.getElementsByClassName("dropdown").classList.toggle("show");
+    document.getElementById("dropdown").classList.toggle("show");
 }
