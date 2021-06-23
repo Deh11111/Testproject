@@ -1,0 +1,34 @@
+.arounds{
+    background:black ;
+    width: 500px;
+    border: 1px solid #003434;
+    text-align: center;
+    height: auto;
+    position: relative;
+    z-index: 1;
+    margin: 250px auto;
+}
+
+
+.arounds-back{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20px;
+    bottom: 0;
+    margin: auto;
+    z-index: -1;
+}
+.phone{
+    z-index: 500;
+}
+.arounds-back--third{
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.arounds-back--second{
+    z-index: -2;
+    opacity: 0.7;
+}
