@@ -292,13 +292,6 @@ body {
   position: absolute;
   top: 30px;
 }
-.banner--second{
-  background: none;
-}
-.banner .banner__inner--second{
- padding: 0;
- align-items: center;
-}
 
 .plugins{
   min-height: 540px;
@@ -337,9 +330,13 @@ body {
   background-color: #3ccad5;
 }
 
-.banner__inner--second {
-  padding: 105px 205px 55px 165px;
-  display: flex;
+.banner--second{
+  background: none;
+}
+
+.banner .banner__inner--second{
+ padding: 0;
+ align-items: center;
 }
 
 .banner__image--second {
