@@ -1,0 +1,28 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 185 61" width="185" height="61">
+	<title>logo</title>
+	<style>
+		tspan { white-space:pre }
+		.txt0 { font-size: 43px;line-height: 36px;fill: #038c8c;font-family: "St Ryde Regular" } 
+		.shp1 { fill: #0aa096 } 
+		.shp2 { fill: #0eb0a5 } 
+		.shp3 { fill: #17c0b5 } 
+		.shp4 { fill: #1fd0c4 } 
+		.shp5 { fill: #2ee2d6 } 
+		.shp6 { fill: #42eee3 } 
+		.txt7 { font-size: 43px;line-height: 36px;fill: #ffffff;font-weight: 300;font-family: "Segoe WP" } 
+	</style>
+	<g id="logo">
+		<text id="inimal " style="transform: matrix(1,0,0,1,57,43)" >
+			<tspan x="0" y="0" class="txt0">inimal</tspan>
+		</text>
+		<path id="Shape 9" class="shp1" d="M2 50.9L51 50.9L51 61L2 61L2 50.9Z" />
+		<path id="Shape 9 copy" class="shp2" d="M2 40.9L51 40.9L51 51L2 51L2 40.9Z" />
+		<path id="Shape 9 copy 2" class="shp3" d="M0 30.9L49 30.9L49 41L0 41L0 30.9Z" />
+		<path id="Shape 9 copy 3" class="shp4" d="M2 20.9L51 20.9L51 31L2 31L2 20.9Z" />
+		<path id="Shape 9 copy 4" class="shp5" d="M8 10.9L57 10.9L57 21L8 21L8 10.9Z" />
+		<path id="Shape 9 copy 5" class="shp6" d="M2 0.9L51 0.9L51 11L2 11L2 0.9Z" />
+		<text id="M " style="transform: matrix(1,0,0,1,8,45)" >
+			<tspan x="0" y="0" class="txt7">M</tspan>
+		</text>
+	</g>
+</svg>
