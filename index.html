@@ -22,7 +22,13 @@
             <div class="header__inner">
                 <img class="logo" src="images/logo.svg" alt="">
                 <div class="header__menu">
-                    <a href="" class="header__menu-item">Products</a>
+                    <btn onclick="drop()" href="" class="header__menu-item" >Products</btn>
+                    <div class="dropdown" id="dropdown">
+                        <a href="#">List1</a>
+                        <a href="#">List2</a>
+                        <a href="#">List4</a>
+                        <a href="#">List5</a>
+                    </div>
                     <a href="" class="header__menu-item">Services</a>
                     <a href="" class="header__menu-item">Contact</a>
                 </div>
@@ -31,12 +37,13 @@
     </header>
     <section class="banner">
         <div class="container">
+            <div class="banner__image-box">
+                <img class="banner__picture-item banner__picture-item--first" src="rounds/first.png" alt="">
+                <img class="banner__picture-item banner__picture-item--second" src="rounds/2.png" alt="">
+                <img class="banner__picture-item banner__picture-item--third" src="rounds/shape_5_copy_2_70.png" alt="">
+                <img class="banner__picture-item" src="images/iphone.png" alt="">
+            </div>
             <div class="banner__inner">
-                <div class="banner__image-box">
-                    <img class="banner__picture-item banner__picture-item--first" src="rounds/first.png" alt="">
-                    <img class="banner__picture-item banner__picture-item--second" src="rounds/2.png" alt="">
-                    <img class="banner__picture-item banner__picture-item--third" src="rounds/shape_5_copy_2_70.png" alt="">
-                    <img class="banner__picture-item" src="images/iphone.png" alt=""></div>
                 <div class="banner__content">
                     <div class="banner__content-app">
                         <img class="banner__content-image" src="images/Shape 2.svg"></img>
@@ -141,6 +148,7 @@
             </div>
         </div>
     </footer>
+    <script src='drop.js'></script>
 </body>
 
 </html>
